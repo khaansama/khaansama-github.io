@@ -15,6 +15,45 @@
 	color : #0d0d0d;
 }
 
+.icon-box {
+    display: block;
+    max-width: 400px;
+    padding: 1.5rem;
+    -webkit-transition: all .3s .12s;
+    transition: all .3s .12s;
+    text-decoration: none;
+}
+
+.icon-box-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1.75rem;
+    -webkit-transition: all .3s .12s;
+    transition: all .3s .12s;
+    border-radius: 50%;
+    background-color: rgba(225, 241, 192);
+    color: #9bd230;
+    font-size: 45px;
+    line-height: 90px;
+	text-align: center;
+}
+
+.icon-box-icon:hover {
+	color :#fff;
+	background-color: #9bd230;
+}
+
+.icon-box-link {
+	display: inline-block;
+    padding-bottom: .5rem;
+    color: #9bd230;
+    font-size: .75rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-decoration: none;	
+}
+
 .loader {
 	display: table-cell;
 	vertical-align: middle;
