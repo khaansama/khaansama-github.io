@@ -39,9 +39,9 @@
 	text-align: center;
 }
 
-.icon-box-icon:hover {
+.box-content:hover .icon-box-icon, .box-content.hover .icon-box-icon {
 	color :#fff;
-	background-color: #9bd230;
+	background-color: #9bd230; 
 }
 
 .icon-box-link {
